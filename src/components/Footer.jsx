@@ -66,6 +66,11 @@ const Footer = () => {
                   Cancellation Policy
                 </Link>
               </li>
+              <li>
+                <Link to="/commerce-disclosure" className="text-gray-400 hover:text-sakura-400 transition-colors">
+                  Commerce Disclosure
+                </Link>
+              </li>
             </ul>
           </div>
 

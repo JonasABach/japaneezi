@@ -6,6 +6,7 @@ import ScrollToTop from './components/ScrollToTop'
 import About from './pages/About'
 import Booking from './pages/Booking'
 import CancellationPolicy from './pages/CancellationPolicy'
+import CommerceDisclosure from './pages/CommerceDisclosure'
 import Contact from './pages/Contact'
 import Courses from './pages/Courses'
 import Home from './pages/Home'
@@ -26,6 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/terms" element={<TermsOfService />} />
             <Route path="/cancellation-policy" element={<CancellationPolicy />} />
+            <Route path="/commerce-disclosure" element={<CommerceDisclosure />} />
           </Routes>
         </main>
         <Footer />
