@@ -65,18 +65,18 @@ const About = () => {
             </section>
 
             {/* My Story */}
-            <section className="py-16 bg-white">
+            <section className="py-16 bg-sakura-50">
                 <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">My Story</h2>
                     <div className="prose prose-lg mx-auto text-gray-600">
                         <p className="mb-4">
-                            Hi, I'm Meg! 🌸 Growing up in Tokyo, Japan, I always felt the beauty of my native tongue, but it wasn't until I left home that I truly understood its power. Living in the United States, Spain, and the Netherlands was a whirlwind—it showed me that language is so much more than vocabulary; it's a mirror of how we see the world.
+                            Hi, I'm Meg! 🌸 Growing up in Tokyo, Japan, I always felt the beauty of my native tongue, but it wasn't until I left home that I truly understood its power. Living in the United States, Spain, and the Netherlands was a whirlwind. It showed me that language is so much more than vocabulary; it's a mirror of how we see the world.
                         </p>
                         <p className="mb-4">
                             But I'll be honest: the journey wasn't always easy. While studying five different languages myself, I've hit that same "wall" you might be facing right now. I know the exact frustration of self-studying a language like Japanese that feels so uniquely different from your own. I've felt that exhaustion when textbooks stop making sense and "fluency" feels like a distant dream.
                         </p>
                         <p className="mb-4">
-                            That's why I'm so passionate about being a teacher. I've spent years as a certified instructor helping hundreds of students break through that "self-study plateau" by turning intimidating Japanese concepts into logical, friendly steps. My goal is to show you the cultural soul behind the words so you can speak with your true heart, not just a dictionary.
+                            That's why I'm so passionate about being a teacher. I've spent years as a instructor helping hundreds of students break through that "self-study plateau" by turning intimidating Japanese concepts into logical, friendly steps. My goal is to show you the cultural soul behind the words so you can speak with your true heart, not just a dictionary.
                         </p>
                         <p>
                             Whether you're just starting your foundation or preparing for the high stakes of the JLPT, I want to be the support I wish I had when I was in your shoes. You don't have to decode this beautiful, complex language alone. Let's find your voice in Japanese, together!

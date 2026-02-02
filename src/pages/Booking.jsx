@@ -90,7 +90,7 @@ const Booking = () => {
       </section>
 
       {/* Single Lessons - Book & Pay */}
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-sakura-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-2 text-center">
             Single Lessons
@@ -204,7 +204,7 @@ const Booking = () => {
       </section>
 
       {/* Already have a pack? */}
-      <section className="py-8 bg-white">
+      <section className="py-8 bg-sakura-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600">
             Already purchased a lesson pack?{' '}
