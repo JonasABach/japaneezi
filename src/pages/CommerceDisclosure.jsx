@@ -37,7 +37,7 @@ const CommerceDisclosure = () => {
                 </td>
                 <td className="py-4 text-gray-600">
                   請求があれば遅滞なく開示します<br />
-                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
+                  <span className="text-gray-500 text-sm">We will disclose this information promptly upon request.</span>
                 </td>
               </tr>
               
@@ -48,7 +48,7 @@ const CommerceDisclosure = () => {
                 </td>
                 <td className="py-4 text-gray-600">
                   請求があれば遅滞なく開示します<br />
-                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
+                  <span className="text-gray-500 text-sm">We will disclose this information promptly upon request.</span>
                 </td>
               </tr>
               
