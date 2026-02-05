@@ -146,7 +146,7 @@ const Home = () => {
                                     <ArrowRight className="ml-2 h-5 w-5" />
                                 </Link>
                                 <Link
-                                    to="/courses"
+                                    to="/study-plans"
                                     className="border-2 border-sakura-600 text-sakura-600 px-8 py-3 rounded-lg hover:bg-sakura-50 transition-colors font-medium"
                                 >
                                     View Courses

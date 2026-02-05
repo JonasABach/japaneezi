@@ -12,21 +12,21 @@ const CommerceDisclosure = () => {
             <tbody className="divide-y divide-gray-200">
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top w-1/3">
-                  Legal Name<br />
+                  Business Name<br />
                   <span className="text-gray-500 text-sm font-normal">販売業者名</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  We will disclose without delay if requested
+                  Japaneezi
                 </td>
               </tr>
               
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Address<br />
+                  Location<br />
                   <span className="text-gray-500 text-sm font-normal">所在地</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  We will disclose without delay if requested
+                  Tokyo, Japan
                 </td>
               </tr>
               
@@ -36,7 +36,7 @@ const CommerceDisclosure = () => {
                   <span className="text-gray-500 text-sm font-normal">電話番号</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  We will disclose without delay if requested
+                  Please use the <Link to="/contact" className="text-sakura-600 hover:text-sakura-700">contact form</Link> on our website
                 </td>
               </tr>
               
