@@ -1,4 +1,3 @@
-
 const CommerceDisclosure = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-16">
@@ -12,17 +11,20 @@ const CommerceDisclosure = () => {
               {/* 販売業者名 / Business Name */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top w-1/3">
-                  販売業者名
+                  販売業者名<br />
+                  <span className="text-gray-500 text-sm font-normal">Business Name</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  Meg（請求があれば遅滞なく開示いたします）
+                  Meg（請求があれば遅滞なく開示いたします）<br />
+                  <span className="text-gray-500 text-sm">Meg (Will be disclosed without delay upon request)</span>
                 </td>
               </tr>
               
               {/* 運営責任者 / Operation Manager */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  運営責任者
+                  運営責任者<br />
+                  <span className="text-gray-500 text-sm font-normal">Operation Manager</span>
                 </td>
                 <td className="py-4 text-gray-600">
                   Meg
@@ -32,27 +34,32 @@ const CommerceDisclosure = () => {
               {/* 所在地 / Address */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  所在地
+                  所在地<br />
+                  <span className="text-gray-500 text-sm font-normal">Address</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  請求があれば遅滞なく開示いたします
+                  請求があれば遅滞なく開示いたします<br />
+                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
                 </td>
               </tr>
               
               {/* 電話番号 / Phone Number */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  電話番号
+                  電話番号<br />
+                  <span className="text-gray-500 text-sm font-normal">Phone Number</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  請求があれば遅滞なく開示いたします
+                  請求があれば遅滞なく開示いたします<br />
+                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
                 </td>
               </tr>
               
               {/* メールアドレス / Email Address */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  メールアドレス
+                  メールアドレス<br />
+                  <span className="text-gray-500 text-sm font-normal">Email Address</span>
                 </td>
                 <td className="py-4 text-gray-600">
                   japaneezi@gmail.com
@@ -62,72 +69,108 @@ const CommerceDisclosure = () => {
               {/* 販売価格 / Price */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  販売価格
+                  販売価格<br />
+                  <span className="text-gray-500 text-sm font-normal">Price</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  各サービスページに記載（税込）<br />
-                  ・体験レッスン（30分）：25ドル<br />
-                  ・単発レッスン（50分）：40ドル<br />
-                  ・3回パック（50分×3回）：110ドル<br />
-                  ・5回パック（50分×5回）：175ドル
+                  <div className="mb-2">
+                    各サービスページに記載（税込）<br />
+                    ・体験レッスン（30分）：25ドル<br />
+                    ・単発レッスン（50分）：40ドル<br />
+                    ・3回パック（50分×3回）：110ドル<br />
+                    ・5回パック（50分×5回）：175ドル
+                  </div>
+                  <div className="text-gray-500 text-sm">
+                    As listed on each service page (tax included)<br />
+                    • Trial Lesson (30 min): $25 USD<br />
+                    • Single Lesson (50 min): $40 USD<br />
+                    • 3-Lesson Pack (50 min × 3): $110 USD<br />
+                    • 5-Lesson Pack (50 min × 5): $175 USD
+                  </div>
                 </td>
               </tr>
               
               {/* 追加手数料 / Additional Fees */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  商品代金以外の必要料金
+                  商品代金以外の必要料金<br />
+                  <span className="text-gray-500 text-sm font-normal">Additional Fees</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  なし
+                  なし<br />
+                  <span className="text-gray-500 text-sm">None</span>
                 </td>
               </tr>
               
               {/* 支払方法 / Payment Methods */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  お支払い方法
+                  お支払い方法<br />
+                  <span className="text-gray-500 text-sm font-normal">Payment Methods</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  クレジットカード（Visa、Mastercard、American Express、JCB）
+                  クレジットカード（Visa、Mastercard、American Express、JCB）<br />
+                  <span className="text-gray-500 text-sm">Credit card (Visa, Mastercard, American Express, JCB)</span>
                 </td>
               </tr>
               
               {/* 支払時期 / Payment Period */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  お支払い時期
+                  お支払い時期<br />
+                  <span className="text-gray-500 text-sm font-normal">Payment Period</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  ご注文時に即時決済
+                  ご注文時に即時決済<br />
+                  <span className="text-gray-500 text-sm">Payment is processed immediately at the time of purchase</span>
                 </td>
               </tr>
               
               {/* サービス提供時期 / Delivery Time */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  サービス提供時期
+                  サービス提供時期<br />
+                  <span className="text-gray-500 text-sm font-normal">Service Delivery</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  ご予約いただいた日時にオンライン（Google Meet）にてレッスンを提供いたします。ご予約確定後、メールにてミーティングリンクをお送りします。
+                  <div className="mb-2">
+                    ご予約いただいた日時にオンライン（Google Meet）にてレッスンを提供いたします。ご予約確定後、メールにてミーティングリンクをお送りします。
+                  </div>
+                  <div className="text-gray-500 text-sm">
+                    Lessons are delivered online via Google Meet at the scheduled date and time. A meeting link will be sent via email after booking confirmation.
+                  </div>
                 </td>
               </tr>
               
               {/* 返品・交換について / Exchange and Return Policy */}
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  返品・キャンセルについて
+                  返品・キャンセルについて<br />
+                  <span className="text-gray-500 text-sm font-normal">Cancellation & Refund Policy</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  <p className="mb-3">
-                    <strong>＜お客様都合によるキャンセル＞</strong><br />
-                    レッスン開始24時間前までのキャンセル：無料で振替可能です。<br />
-                    レッスン開始24時間以内のキャンセル：返金不可となりますが、講師の判断により振替対応する場合があります。
-                  </p>
-                  <p>
-                    <strong>＜サービス提供に問題があった場合＞</strong><br />
-                    技術的な問題等によりレッスンが実施できなかった場合は、すぐにメール（japaneezi@gmail.com）までご連絡ください。追加費用なしで振替対応いたします。
-                  </p>
+                  <div className="mb-4">
+                    <p className="mb-2">
+                      <strong>＜お客様都合によるキャンセル＞</strong><br />
+                      レッスン開始24時間前までのキャンセル：無料で振替可能です。<br />
+                      レッスン開始24時間以内のキャンセル：返金不可となりますが、講師の判断により振替対応する場合があります。
+                    </p>
+                    <p>
+                      <strong>＜サービス提供に問題があった場合＞</strong><br />
+                      技術的な問題等によりレッスンが実施できなかった場合は、すぐにメール（japaneezi@gmail.com）までご連絡ください。追加費用なしで振替対応いたします。
+                    </p>
+                  </div>
+                  <div className="text-gray-500 text-sm">
+                    <p className="mb-2">
+                      <strong>&lt;Cancellation by Customer&gt;</strong><br />
+                      Cancellation 24+ hours before lesson: Free rescheduling available.<br />
+                      Cancellation within 24 hours: Non-refundable, but may be rescheduled at instructor's discretion.
+                    </p>
+                    <p>
+                      <strong>&lt;Service Issues&gt;</strong><br />
+                      If technical issues prevent the lesson from taking place, please contact us immediately at japaneezi@gmail.com. We will reschedule at no additional cost.
+                    </p>
+                  </div>
                 </td>
               </tr>
             </tbody>
@@ -135,7 +178,7 @@ const CommerceDisclosure = () => {
         </div>
         
         <p className="mt-8 text-sm text-gray-500 text-center">
-          最終更新日：2026年2月
+          最終更新日：2026年2月 / Last updated: February 2026
         </p>
       </div>
     </div>
