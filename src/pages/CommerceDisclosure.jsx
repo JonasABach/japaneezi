@@ -4,16 +4,16 @@ const CommerceDisclosure = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-16">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Commerce Disclosure</h1>
-        <p className="text-gray-500 mb-8">特定商取引法に基づく表記</p>
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">特定商取引法に基づく表記</h1>
+        <p className="text-gray-500 mb-8">Commerce Disclosure</p>
         
         <div className="bg-white rounded-xl shadow-sm p-8">
           <table className="w-full">
             <tbody className="divide-y divide-gray-200">
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top w-1/3">
-                  Business Name<br />
-                  <span className="text-gray-500 text-sm font-normal">販売業者名</span>
+                  販売業者名<br />
+                  <span className="text-gray-500 text-sm font-normal">Business Name</span>
                 </td>
                 <td className="py-4 text-gray-600">
                   Japaneezi
@@ -22,121 +22,126 @@ const CommerceDisclosure = () => {
               
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Location<br />
-                  <span className="text-gray-500 text-sm font-normal">所在地</span>
+                  運営責任者<br />
+                  <span className="text-gray-500 text-sm font-normal">Head of Operations</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  Tokyo, Japan
+                  Meg
                 </td>
               </tr>
               
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Phone Number<br />
-                  <span className="text-gray-500 text-sm font-normal">電話番号</span>
+                  所在地<br />
+                  <span className="text-gray-500 text-sm font-normal">Address</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  Please use the <Link to="/contact" className="text-sakura-600 hover:text-sakura-700">contact form</Link> on our website
+                  請求があれば遅滞なく開示します<br />
+                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
                 </td>
               </tr>
               
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Email Address<br />
-                  <span className="text-gray-500 text-sm font-normal">メールアドレス</span>
+                  電話番号<br />
+                  <span className="text-gray-500 text-sm font-normal">Phone Number</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  Please use the <Link to="/contact" className="text-sakura-600 hover:text-sakura-700">contact form</Link> on our website
+                  請求があれば遅滞なく開示します<br />
+                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
                 </td>
               </tr>
               
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Head of Operations<br />
-                  <span className="text-gray-500 text-sm font-normal">運営責任者</span>
+                  メールアドレス<br />
+                  <span className="text-gray-500 text-sm font-normal">Email Address</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  Meg Sensei
+                  <Link to="/contact" className="text-sakura-600 hover:text-sakura-700">お問い合わせフォーム</Link>よりご連絡ください<br />
+                  <span className="text-gray-500 text-sm">Please contact us via the <Link to="/contact" className="text-sakura-600 hover:text-sakura-700">contact form</Link></span>
                 </td>
               </tr>
               
               <tr>
                 <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Additional Fees<br />
-                  <span className="text-gray-500 text-sm font-normal">追加手数料</span>
-                </td>
-                <td className="py-4 text-gray-600">
-                  None. All prices shown are final and include all applicable fees.
-                </td>
-              </tr>
-              
-              <tr>
-                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Exchanges & Returns Policy<br />
-                  <span className="text-gray-500 text-sm font-normal">返品・交換について</span>
-                </td>
-                <td className="py-4 text-gray-600">
-                  <p className="mb-2">
-                    <strong>Cancellation by customer:</strong> Lessons cancelled at least 24 hours before 
-                    the scheduled time can be rescheduled at no charge. Cancellations with less than 24 hours 
-                    notice are non-refundable but may be rescheduled at the instructor's discretion.
-                  </p>
-                  <p>
-                    <strong>Service issues:</strong> If you experience technical difficulties that prevent the 
-                    lesson from taking place, please contact us immediately. We will reschedule the lesson 
-                    at no additional cost.
-                  </p>
-                  <p className="mt-2">
-                    See our full <Link to="/cancellation-policy" className="text-sakura-600 hover:text-sakura-700">Cancellation Policy</Link> for details.
-                  </p>
-                </td>
-              </tr>
-              
-              <tr>
-                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Service Delivery<br />
-                  <span className="text-gray-500 text-sm font-normal">サービス提供時期</span>
-                </td>
-                <td className="py-4 text-gray-600">
-                  Lessons are delivered online via Google Meet at the scheduled date and time selected 
-                  during booking. A meeting link will be sent via email after booking confirmation.
-                </td>
-              </tr>
-              
-              <tr>
-                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Accepted Payment Methods<br />
-                  <span className="text-gray-500 text-sm font-normal">支払方法</span>
-                </td>
-                <td className="py-4 text-gray-600">
-                  Credit card, debit card (Visa, Mastercard, American Express, JCB)
-                </td>
-              </tr>
-              
-              <tr>
-                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Payment Period<br />
-                  <span className="text-gray-500 text-sm font-normal">支払時期</span>
-                </td>
-                <td className="py-4 text-gray-600">
-                  Payment is processed immediately at the time of purchase.
-                </td>
-              </tr>
-              
-              <tr>
-                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
-                  Prices<br />
-                  <span className="text-gray-500 text-sm font-normal">販売価格</span>
+                  販売価格<br />
+                  <span className="text-gray-500 text-sm font-normal">Prices</span>
                 </td>
                 <td className="py-4 text-gray-600">
                   <ul className="list-disc list-inside space-y-1">
-                    <li>Trial Lesson (30 min): $25 USD</li>
-                    <li>Single Lesson (50 min): $40 USD</li>
-                    <li>3-Lesson Pack (3 × 50 min): $110 USD</li>
-                    <li>5-Lesson Pack (5 × 50 min): $175 USD</li>
+                    <li>体験レッスン (30分): $25 USD</li>
+                    <li>単発レッスン (50分): $40 USD</li>
+                    <li>3回パック (50分×3回): $110 USD</li>
+                    <li>5回パック (50分×5回): $175 USD</li>
                   </ul>
                   <p className="mt-2 text-sm text-gray-500">
-                    All prices are in USD and include applicable taxes.
+                    価格はすべてUSD（米ドル）表記、税込みです。
+                  </p>
+                </td>
+              </tr>
+              
+              <tr>
+                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
+                  追加手数料<br />
+                  <span className="text-gray-500 text-sm font-normal">Additional Fees</span>
+                </td>
+                <td className="py-4 text-gray-600">
+                  なし。表示価格以外の費用は発生しません。<br />
+                  <span className="text-gray-500 text-sm">None. No additional fees beyond the listed prices.</span>
+                </td>
+              </tr>
+              
+              <tr>
+                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
+                  支払方法<br />
+                  <span className="text-gray-500 text-sm font-normal">Payment Methods</span>
+                </td>
+                <td className="py-4 text-gray-600">
+                  クレジットカード、デビットカード（Visa、Mastercard、American Express、JCB）<br />
+                  <span className="text-gray-500 text-sm">Credit card, debit card (Visa, Mastercard, American Express, JCB)</span>
+                </td>
+              </tr>
+              
+              <tr>
+                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
+                  支払時期<br />
+                  <span className="text-gray-500 text-sm font-normal">Payment Period</span>
+                </td>
+                <td className="py-4 text-gray-600">
+                  ご購入時に即時決済されます。<br />
+                  <span className="text-gray-500 text-sm">Payment is processed immediately at the time of purchase.</span>
+                </td>
+              </tr>
+              
+              <tr>
+                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
+                  サービス提供時期<br />
+                  <span className="text-gray-500 text-sm font-normal">Service Delivery</span>
+                </td>
+                <td className="py-4 text-gray-600">
+                  予約時に選択された日時にオンライン（Google Meet）でレッスンを提供します。予約確定後、ミーティングリンクをメールでお送りします。<br />
+                  <span className="text-gray-500 text-sm">Lessons are delivered online via Google Meet at the scheduled date and time. A meeting link will be sent via email after booking confirmation.</span>
+                </td>
+              </tr>
+              
+              <tr>
+                <td className="py-4 pr-4 font-medium text-gray-900 align-top">
+                  返品・キャンセルについて<br />
+                  <span className="text-gray-500 text-sm font-normal">Cancellation & Refund Policy</span>
+                </td>
+                <td className="py-4 text-gray-600">
+                  <p className="mb-2">
+                    <strong>お客様都合のキャンセル：</strong>レッスン開始24時間前までのキャンセルは無料で振替可能です。24時間以内のキャンセルは返金不可ですが、講師の判断で振替対応する場合があります。
+                  </p>
+                  <p className="mb-2">
+                    <strong>技術的問題：</strong>技術的な問題によりレッスンが実施できなかった場合は、すぐにご連絡ください。追加費用なしで振替対応いたします。
+                  </p>
+                  <p className="mt-2">
+                    詳細は<Link to="/cancellation-policy" className="text-sakura-600 hover:text-sakura-700">キャンセルポリシー</Link>をご確認ください。
+                  </p>
+                  <p className="mt-2 text-gray-500 text-sm">
+                    See our full <Link to="/cancellation-policy" className="text-sakura-600 hover:text-sakura-700">Cancellation Policy</Link> for details.
                   </p>
                 </td>
               </tr>
@@ -145,7 +150,7 @@ const CommerceDisclosure = () => {
         </div>
         
         <p className="mt-8 text-sm text-gray-500 text-center">
-          Last updated: February 2026
+          最終更新日: 2026年2月
         </p>
       </div>
     </div>
