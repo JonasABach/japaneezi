@@ -30,12 +30,12 @@ const Home = () => {
     const testimonials = [
         {
             name: 'Aaron',
-            content: 'Megumi San is awesome. She has such a pleasant personality and she makes you feel instantly at ease and comfortable. I sense she genuinely cares for my learning journey and gives her best to help me attain my goals. Stop wondering if you should set up a trial session with her. Just do it. You won\'t regret it.',
+            content: 'Meg San is awesome. She has such a pleasant personality and she makes you feel instantly at ease and comfortable. I sense she genuinely cares for my learning journey and gives her best to help me attain my goals. Stop wondering if you should set up a trial session with her. Just do it. You won\'t regret it.',
             rating: 5,
         },
         {
             name: 'Patrick',
-            content: 'Megumi is a friendly and fun tutor to talk with. She is very knowledgeable about language and language acquisition and while our conversations ramble all over she gently corrects me as needed and documents it all in a shared document that I can review later.',
+            content: 'Meg is a friendly and fun tutor to talk with. She is very knowledgeable about language and language acquisition and while our conversations ramble all over she gently corrects me as needed and documents it all in a shared document that I can review later.',
             rating: 5,
         },
         {
@@ -55,12 +55,12 @@ const Home = () => {
         },
         {
             name: 'Brandon',
-            content: 'Megumi-sensei is very patient, communicates clearly, and is very fun to learn with. I am glad I decided to reach out for lessons from her, and I highly recommend others do so as well.',
+            content: 'Meg-sensei is very patient, communicates clearly, and is very fun to learn with. I am glad I decided to reach out for lessons from her, and I highly recommend others do so as well.',
             rating: 5,
         },
         {
             name: 'Andrew',
-            content: 'Megumi is great to work with. She\'s always friendly, patient, and well prepared. She was able to adapt quickly to where I was at with my Japanese ability prior to starting lessons with her and we have been building on it since. We always have fun with our conversation practice and I highly recommend Megumi as a teacher for all skill levels.',
+            content: 'Meg is great to work with. She\'s always friendly, patient, and well prepared. She was able to adapt quickly to where I was at with my Japanese ability prior to starting lessons with her and we have been building on it since. We always have fun with our conversation practice and I highly recommend Meg as a teacher for all skill levels.',
             rating: 5,
         },
         {
@@ -70,12 +70,12 @@ const Home = () => {
         },
         {
             name: 'Matthew',
-            content: 'After a trial session with Megumi I signed up right away for weekly lessons. She\'s a great teacher, always friendly and supportive. I feel that she\'s really helping me understand how the Japanese language works, as well as getting me started with useful phrases – and she tailors the material very well around my level.',
+            content: 'After a trial session with Meg I signed up right away for weekly lessons. She\'s a great teacher, always friendly and supportive. I feel that she\'s really helping me understand how the Japanese language works, as well as getting me started with useful phrases – and she tailors the material very well around my level.',
             rating: 5,
         },
         {
             name: 'Nancy',
-            content: 'Megumi is an outstanding Japanese tutor! Her lessons are well-structured, engaging, and personalized. She is very kind and friendly personality :) I take Beginner-Intermediate conversational practice and it has been very effective! Her English is also perfect, if that is something you also look for. Highly recommended!',
+            content: 'Meg is an outstanding Japanese tutor! Her lessons are well-structured, engaging, and personalized. She is very kind and friendly personality :) I take Beginner-Intermediate conversational practice and it has been very effective! Her English is also perfect, if that is something you also look for. Highly recommended!',
             rating: 5,
         },
         {
@@ -85,7 +85,7 @@ const Home = () => {
         },
         {
             name: 'Parker',
-            content: 'Megumi is a very patient and interesting tutor. She can speak English like a native and will prepare tailored materials specifically for different students. She is also enthusiastic and optimistic in communication. It\'s great to have class with Megumi.',
+            content: 'Meg is a very patient and interesting tutor. She can speak English like a native and will prepare tailored materials specifically for different students. She is also enthusiastic and optimistic in communication. It\'s great to have class with Meg.',
             rating: 5,
         },
         {
@@ -100,7 +100,7 @@ const Home = () => {
         },
         {
             name: 'Sofia',
-            content: 'I\'ve tried several Japanese tutors before, but Megumi stands out. She has a gift for breaking down complex grammar into simple, memorable explanations. Every lesson feels productive and enjoyable. My confidence in speaking has grown so much in just a few months!',
+            content: 'I\'ve tried several Japanese tutors before, but Meg stands out. She has a gift for breaking down complex grammar into simple, memorable explanations. Every lesson feels productive and enjoyable. My confidence in speaking has grown so much in just a few months!',
             rating: 5,
         },
     ]
