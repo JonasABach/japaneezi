@@ -15,8 +15,7 @@ const CommerceDisclosure = () => {
                   <span className="text-gray-500 text-sm font-normal">Business Name</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  Meg（請求があれば遅滞なく開示いたします）<br />
-                  <span className="text-gray-500 text-sm">Meg (Will be disclosed without delay upon request)</span>
+                  Megumi Bach
                 </td>
               </tr>
               
@@ -27,7 +26,7 @@ const CommerceDisclosure = () => {
                   <span className="text-gray-500 text-sm font-normal">Operation Manager</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  Meg
+                  Megumi Bach
                 </td>
               </tr>
               
@@ -38,8 +37,8 @@ const CommerceDisclosure = () => {
                   <span className="text-gray-500 text-sm font-normal">Address</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  請求があれば遅滞なく開示いたします<br />
-                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
+                  東京都国分寺市<br />
+                  <span className="text-gray-500 text-sm">Kokubunji, Tokyo, Japan</span>
                 </td>
               </tr>
               
@@ -62,7 +61,7 @@ const CommerceDisclosure = () => {
                   <span className="text-gray-500 text-sm font-normal">Email Address</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  japaneezi@gmail.com
+                  japaneezi.with.meg@gmail.com
                 </td>
               </tr>
               
@@ -157,7 +156,7 @@ const CommerceDisclosure = () => {
                     </p>
                     <p>
                       <strong>＜サービス提供に問題があった場合＞</strong><br />
-                      技術的な問題等によりレッスンが実施できなかった場合は、すぐにメール（japaneezi@gmail.com）までご連絡ください。追加費用なしで振替対応いたします。
+                      技術的な問題等によりレッスンが実施できなかった場合は、すぐにメール（japaneezi.with.meg@gmail.com）までご連絡ください。追加費用なしで振替対応いたします。
                     </p>
                   </div>
                   <div className="text-gray-500 text-sm">
@@ -168,7 +167,7 @@ const CommerceDisclosure = () => {
                     </p>
                     <p>
                       <strong>&lt;Service Issues&gt;</strong><br />
-                      If technical issues prevent the lesson from taking place, please contact us immediately at japaneezi@gmail.com. We will reschedule at no additional cost.
+                      If technical issues prevent the lesson from taking place, please contact us immediately at japaneezi.with.meg@gmail.com. We will reschedule at no additional cost.
                     </p>
                   </div>
                 </td>
