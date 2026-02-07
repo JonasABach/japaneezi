@@ -37,8 +37,8 @@ const CommerceDisclosure = () => {
                   <span className="text-gray-500 text-sm font-normal">Address</span>
                 </td>
                 <td className="py-4 text-gray-600">
-                  東京都国分寺市<br />
-                  <span className="text-gray-500 text-sm">Kokubunji, Tokyo, Japan</span>
+                  請求があれば遅滞なく開示いたします<br />
+                  <span className="text-gray-500 text-sm">Will be disclosed without delay upon request</span>
                 </td>
               </tr>
               
